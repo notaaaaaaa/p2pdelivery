@@ -1,0 +1,165 @@
+.card {
+    border-radius: 0.75rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-background);
+    color: var(--card-foreground);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    margin: 3rem auto;
+    max-width: 600px; /* Increased max-width */
+  }
+  
+  .card-header {
+    margin-bottom: 2rem; /* Increased space between header and content */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 0.rem; /* Increased space below title */
+  }
+  
+  .card-description {
+    font-size: 1.1rem;
+    color: var(--muted-foreground);
+    line-height: 1.5;
+  }
+  
+  .input, .textarea, select {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--input-border);
+    border-radius: 0.5rem;
+    background-color: var(--input-background);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .input:focus, .textarea:focus, select:focus {
+    border-color: var(--button-background);
+    outline: none;
+    padding:1rem;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23333' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    padding-right: 2.5rem;
+  }
+  
+  .textarea {
+    min-height: 100px;
+    resize: vertical;
+    margin:1rem;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #000000; /* Changed to black */
+    color: white;
+    font-size: 1.1rem; /* Increased font size for button */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  .button:hover {
+    background-color: #333333; /* Darker shade on hover */
+    transform: translateY(-1px);
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+  
+  .input-label {
+    display: block;
+    font-weight: bold;
+    color: var(--muted-foreground);
+  }
+  .block.text-sm.font-medium.mb-1 {
+    font-weight: bold;
+  }
+  
+
+  .results {
+    margin-top: 2rem;
+  }
+  
+  .alert {
+    background-color: #f0f8ff;
+    border: 1px solid #b3e0ff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .alert-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #0066cc;
+  }
+  
+  .alert-description {
+    color: #333;
+  }
+  
+  .person-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.2s;
+  }
+  
+  .person-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .person-info {
+    flex-grow: 1;
+  }
+  
+  .person-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .person-details {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .request-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .request-button:hover {
+    background-color: #333333;
+  }
+
+  .spacing{
+    margin-bottom: 2rem;
+  }
